@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>mibanez</title>
+    <title>mibanez | GoL</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="assets/css/main.css"></link>
     <link rel="stylesheet" href="assets/css/game_of_life.css"></link>
+    <script src="assets/js/game_of_life.js"></script>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="index.html" class="selected"><strong>Matias</strong></a></li>
-        <li><a href="game_of_life.html">GameOfLife</a></li>
+        <li><a href="index.html"><strong>Matias</strong></a></li>
+        <li><a href="game_of_life.html" class="selected">GameOfLife</a></li>
       </ul>
     </nav>
 
     <main>
-      <h1>Hellow World</h1>
+      <section class="gol">
+        <h1>Game of Life</h1>
+        <p>Vanilla js implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">conway's game of life</a>.</p>
+        <button id="game-of-life-button">Start</button>
+        <table id="game-of-life-board"></table>
+      </section>
     </main>
 
     <footer>

@@ -1,0 +1,32 @@
+.gol button {
+  margin: 20px;
+  background-color: greenyellow;
+}
+
+.gol button.active {
+  background-color: red;
+}
+
+.gol table {
+  border-collapse: collapse;
+}
+
+.gol table td {
+  width: 20px;
+  height: 20px;
+  border: solid 1px;
+}
+
+.gol table td:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.gol table td:active {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.gol table td.active {
+  background-color: forestgreen;
+}
