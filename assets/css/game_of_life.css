@@ -1,0 +1,46 @@
+.gol button {
+  margin: 20px 0;
+  padding: 6px 12px;
+  background-color: #abffaa;
+  border: 1px solid #03ef00;
+  border-radius: 3px;
+}
+
+.gol button:hover {
+  background-color: #03ef00;
+  cursor: pointer;
+}
+
+.gol button.active {
+  background-color: #ffb7b7;
+  border-color: #ff6668;
+}
+
+.gol button.active:hover {
+  background-color: #ff6668;
+}
+
+.gol table {
+  border-collapse: collapse;
+}
+
+.gol table td {
+  width: 20px;
+  height: 20px;
+  background-color: #f2f2f2;
+  border: solid 1px #b0b0b0;
+}
+
+.gol table td:hover {
+  background-color: #ffdca5;
+  cursor: pointer;
+}
+
+.gol table td:active {
+  background-color: #ffc870;
+  cursor: pointer;
+}
+
+.gol table td.active {
+  background-color: #ffb642;
+}
