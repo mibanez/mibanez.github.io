@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+  <script type="module" src="/assets/js/game_of_life.js"></script>
+  <section class="gol">
+    <h1>Game of Life</h1>
+    <p>Vanilla js implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">conway's game of life</a>.</p>
+    <button id="game-of-life-button">Start</button>
+    <table id="game-of-life-board"></table>
+  </section>
+</main>
+{% endblock content %}
